@@ -12,7 +12,7 @@ The XGBoost model object in the Scikit-Learn API is currently able to interface 
 
 We have taken the approach 3) to write two classes which are able to perform cross-validation and grid search (with cross-validation) with early stopping rounds (as well as without). 
 
-The repository contains the following:
+The repository contains the following
 -XGBCV.py: a python file containing two classes: xgb_cv and xgb_GridSearchCV. xgb_cv is a class used to perform cross-validation with (or without) early stopping rounds for an XGBoost model in the scikit-learn wrapper interface. xgb_GridSearchCV used to perform a cross-validation grid search (using the xgb_cv class) to optimize hyperparameters. The inputs, methods, and attributes of these classes are detailed in the code. 
 -TitanicData/train.csv: a CSV file containing the Titanic training set from Kaggle (more information can be found here: https://www.kaggle.com/c/titanic). This is only needed for the purpose of illustration.
 -sample.ipynb: a Jupyter notebook showing some sample code for using the xgb_cv and xgb_GridSearchCV classes.
