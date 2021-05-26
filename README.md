@@ -1,6 +1,6 @@
 # XGBCV
 
-### Created by: Rafael Schulman
+### Created by: Rafael (@CuriousByNature)
 
 
 XGBCV is a repository containing classes which enable you to run cross-validation and grid search parameter tuning with cross-validation for the Scikit-Learn wrapper interface of XGBoost (https://xgboost.readthedocs.io/en/latest/python/python_api.html#module-xgboost.sklearn) with early stopping rounds enabled. 
